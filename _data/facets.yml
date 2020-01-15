@@ -1,0 +1,292 @@
+- id: areeDisc
+  label: Aree Disciplinari
+  allLabel: tutte
+  options:
+    - id: Scienze_fisiche
+      label: Scienze fisiche
+    - id: Scienze_dell%27antichit%C3%A0%2C_filologico-letterarie_e_storico-artistiche
+      label: Scienze dell'antichità, filologico-letterarie e storico-artistiche
+    - id: Ingegneria_civile_e_Architettura
+      label: Ingegneria civile e Architettura
+    - id: Scienze_storiche%2C_filosofiche%2C_pedagogiche_e_psicologiche
+      label: Scienze storiche, filosofiche, pedagogiche e psicologiche
+    - id: Scienze_matematiche_e_informatiche
+      label: Scienze matematiche e informatiche
+    - id: Scienze_della_terra
+      label: Scienze della terra
+    - id: Scienze_chimiche
+      label: Scienze chimiche
+
+- id: discipline
+  label: Discipline
+  allLabel: tutte
+  options:
+    - id: URBANISTICA
+      label: URBANISTICA
+    - id: BOTANICA_AMBIENTALE_E_APPLICATA
+      label: BOTANICA AMBIENTALE E APPLICATA
+    - id: STORIA_DELL%E2%80%99ARTE_MODERNA
+      label: STORIA DELL'ARTE MODERNA
+    - id: COMPOSIZIONE_ARCHITETTONICA_E_URBANA
+      label: COMPOSIZIONE ARCHITETTONICA E URBANA
+    - id: ARCHIVISTICA%2C_BIBLIOGRAFIA_E_BIBLIOTECONOMIA
+      label: ARCHIVISTICA, BIBLIOGRAFIA E BIBLIOTECONOMIA
+    - id: GEORISORSE_MINERARIE_E_APPLICAZIONI_MINERALOGICO-_PETROGRAFICHE_PER_L%27AMBIENTE_ED_I_BENI_CULTURALI
+      label: GEORISORSE MINERARIE E APPLICAZIONI MINERALOGICO- PETROGRAFICHE PER L'AMBIENTE ED I BENI CULTURALI
+    - id: PALEONTOLOGIA_E_PALEOECOLOGIA
+      label: PALEONTOLOGIA E PALEOECOLOGIA
+    - id: GEOGRAFIA_ECONOMICO-POLITICA
+      label: GEOGRAFIA ECONOMICO-POLITICA
+    - id: ARCHEOLOGIA_CRISTIANA_E_MEDIEVALE
+      label: ARCHEOLOGIA CRISTIANA E MEDIEVALE
+    - id: STORIA_DELL%E2%80%99ARTE_CONTEMPORANEA
+      label: STORIA DELL'ARTE CONTEMPORANEA
+    - id: INFORMATICA
+      label: INFORMATICA
+    - id: FISICA_APPLICATA_%28A_BENI_CULTURALI%2C_AMBIENTALI%2C_BIOLOGIA_E_MEDICINA%29
+      label: FISICA APPLICATA (A BENI CULTURALI, AMBIENTALI, BIOLOGIA E MEDICINA)
+    - id: ARCHITETTURA_DEL_PAESAGGIO
+      label: ARCHITETTURA DEL PAESAGGIO
+    - id: STORIA_MEDIEVALE
+      label: STORIA MEDIEVALE
+    - id: TECNICA_E_PIANIFICAZIONE_URBANISTICA
+      label: TECNICA E PIANIFICAZIONE URBANISTICA
+    - id: STORIA_CONTEMPORANEA
+      label: STORIA CONTEMPORANEA
+    - id: GEOGRAFIA
+      label: GEOGRAFIA
+    - id: MUSEOLOGIA_E_CRITICA_ARTISTICA_E_DEL_RESTAURO
+      label: MUSEOLOGIA E CRITICA ARTISTICA E DEL RESTAURO
+    - id: GEOGRAFIA_FISICA_E_GEOMORFOLOGIA
+      label: GEOGRAFIA FISICA E GEOMORFOLOGIA
+    - id: RAPPRESENTAZIONE
+      label: RAPPRESENTAZIONE
+    - id: ANTROPOLOGIA
+      label: ANTROPOLOGIA
+    - id: ARCHEOLOGIA_CLASSICA
+      label: ARCHEOLOGIA CLASSICA
+    - id: TOPOGRAFIA_E_CARTOGRAFIA
+      label: TOPOGRAFIA E CARTOGRAFIA
+    - id: LETTERATURA_ITALIANA
+      label: LETTERATURA ITALIANA
+    - id: ECONOMIA_E_PIANIFICAZIONE_TERRITORIALE
+      label: ECONOMIA E PIANIFICAZIONE TERRITORIALE
+    - id: METODOLOGIE_DELLA_RICERCA_ARCHEOLOGICA
+      label: METODOLOGIE DELLA RICERCA ARCHEOLOGICA
+    - id: PREISTORIA_E_PROTOSTORIA
+      label: PREISTORIA E PROTOSTORIA
+    - id: TOPOGRAFIA_ANTICA
+      label: TOPOGRAFIA ANTICA
+    - id: STORIA_DELL%E2%80%99ARTE_MEDIEVALE
+      label: STORIA DELL'ARTE MEDIEVALE
+    - id: CHIMICA_DELL%27AMBIENTE_E_DEI_BENI_CULTURALI
+      label: CHIMICA DELL'AMBIENTE E DEI BENI CULTURALI
+    - id: STORIA_MODERNA
+      label: STORIA MODERNA
+    - id: ECOLOGIA
+      label: ECOLOGIA
+    - id: FONDAMENTI_CHIMICI_DELLE_TECNOLOGIE
+      label: FONDAMENTI CHIMICI DELLE TECNOLOGIE
+    - id: RESTAURO
+      label: RESTAURO
+    - id: ETRUSCOLOGIA_E_ANTICHIT%C3%80_ITALICHE
+      label: ETRUSCOLOGIA E ANTICHITA' ITALICHE
+
+- id: settori
+  label: Settori Affini
+  allLabel: tutti
+  options:
+    - id: STORIA_MODERNA%2FCONTEMPORANEA
+      label: STORIA MODERNA/CONTEMPORANEA
+    - id: ARCHEOLOGIA_E_STORIA_DELL%27ARTE_DELL%27INDIA_E_DELL%27ASIA_CENTRALE
+      label: ARCHEOLOGIA E STORIA DELL'ARTE DELL'INDIA E DELL'ASIA CENTRALE
+    - id: CHIMICA_ANALITICA
+      label: CHIMICA ANALITICA
+    - id: MINERALOGIA
+      label: MINERALOGIA
+    - id: GEOGRAFIA_ECONOMICO-POLITICA
+      label: GEOGRAFIA ECONOMICO-POLITICA
+    - id: CHIMICA_FISICA
+      label: CHIMICA FISICA
+    - id: STORIA_ROMANA
+      label: STORIA ROMANA
+    - id: FILOLOGIA_ITALICA%2C_ILLIRICA_E_CELTICA
+      label: FILOLOGIA ITALICA, ILLIRICA E CELTICA
+    - id: ARCHEOLOGIA_CRISTIANA_E_MEDIEVALE
+      label: ARCHEOLOGIA CRISTIANA E MEDIEVALE
+    - id: STORIA_DELL%E2%80%99ARTE_MEDIEVALE%2FCONTEMPORANEA
+      label: STORIA DELL'ARTE MEDIEVALE/CONTEMPORANEA
+    - id: ARCHITETTURA_DEL_PAESAGGIO
+      label: ARCHITETTURA DEL PAESAGGIO
+    - id: RESTAURO
+      label: RESTAURO
+    - id: TOPOGRAFIA_ANTICA
+      label: TOPOGRAFIA ANTICA
+    - id: STORIA_DELL%E2%80%99ARTE_MEDIEVALE%2FMODERNA
+      label: STORIA DELL'ARTE MEDIEVALE/MODERNA
+    - id: STORIA_GRECA
+      label: STORIA GRECA
+    - id: GEOGRAFIA
+      label: GEOGRAFIA
+    - id: METODOLOGIE_DELLA_RICERCA_ARCHEOLOGICA_ARCHEOLOGIA_DEL_PAESAGGIO
+      label: METODOLOGIE DELLA RICERCA ARCHEOLOGICA ARCHEOLOGIA DEL PAESAGGIO
+    - id: CHIMICA_ORGANICA
+      label: CHIMICA ORGANICA
+    - id: STORIA
+      label: STORIA
+    - id: ETRUSCOLOGIA_E_ANTICHITA%27_ITALICHE
+      label: ETRUSCOLOGIA E ANTICHITA' ITALICHE
+    - id: URBANISTICA
+      label: URBANISTICA
+    - id: ARCHEOLOGIA_CLASSICA
+      label: ARCHEOLOGIA CLASSICA
+    - id: CHIMICA_GENERALE_E_INORGANICA
+      label: CHIMICA GENERALE E INORGANICA
+    - id: ARCHEOLOGIA_E_STORIA_DELL%27ARTE_DEL_VICINO_ORIENTE_ANTICO
+      label: ARCHEOLOGIA E STORIA DELL'ARTE DEL VICINO ORIENTE ANTICO
+    - id: STORIA_DELL%E2%80%99ARTE_MODERNA%2FCONTEMPORANEA
+      label: STORIA DELL'ARTE MODERNA/CONTEMPORANEA
+    - id: PIETROLOGIA_E_PETROGRAFIA
+      label: PIETROLOGIA E PETROGRAFIA
+    - id: STORIA_MEDIEVALE%2FCONTEMPORANEA
+      label: STORIA MEDIEVALE/CONTEMPORANEA
+    - id: ARCHEOLOGIA_FENICIO-PUNICA
+      label: ARCHEOLOGIA FENICIO-PUNICA
+    - id: ANTROPOLOGIA
+      label: ANTROPOLOGIA
+    - id: STORIA_MEDIEVALE%2FMODERNA
+      label: STORIA MEDIEVALE/MODERNA
+    - id: ARCHITETTURA_DEGLI_INTERNI_E_ALLESTIMENTO
+      label: ARCHITETTURA DEGLI INTERNI E ALLESTIMENTO
+    - id: METODOLOGIE_DELLA_RICERCA_ARCHEOLOGICA
+      label: METODOLOGIE DELLA RICERCA ARCHEOLOGICA
+    - id: BOTANICA_GENERALE
+      label: BOTANICA GENERALE
+    - id: STORIA_MODERNA
+      label: STORIA MODERNA
+    - id: TECNICA_E_PIANIFICAZIONE_URBANISTICA
+      label: TECNICA E PIANIFICAZIONE URBANISTICA
+    - id: BOTANICA_SISTEMATICA
+      label: BOTANICA SISTEMATICA
+    - id: PREISTORIA_E_PROTOSTORIA
+      label: PREISTORIA E PROTOSTORIA
+    - id: FISICA_SPERIMENTALE
+      label: FISICA SPERIMENTALE
+
+- id: tematiche
+  label: Tematiche
+  allLabel: tutte
+  options:
+    - id: Pianificazione_economica_territoriale
+      label: Pianificazione economica territoriale
+    - id: Economia
+      label: Economia
+    - id: Conservazione_dei_beni_architettonici_e_ambientali
+      label: Conservazione dei beni architettonici e ambientali
+    - id: Tecnologie_per_la_conservazione_e_il_restauro_dei_beni_cultural
+      label: Tecnologie per la conservazione e il restauro dei beni culturali
+    - id: Voci_del_territorio
+      label: Voci del territorio
+    - id: Restauro
+      label: Restauro
+    - id: Rilievo_dell%27architettura
+      label: Rilievo dell'architettura
+    - id: Economia_per_l%27ambiente_e_la_cultura
+      label: Economia per l'ambiente e la cultura
+    - id: Ricostruzione_virtuale_in_ambito_architettonico
+      label: Ricostruzione virtuale in ambito architettonico
+    - id: Cartografia_e_GIS
+      label: Cartografia e GIS
+    - id: Turismo
+      label: Turismo
+    - id: Valutazioni_VAS_e_TIA
+      label: Valutazioni VAS e TIA
+    - id: Conservazione_e_restauro_dei_beni_culturali
+      label: Conservazione e restauro dei beni culturali
+    - id: Beni_Culturali
+      label: Beni Culturali
+    - id: Pianificazione_territoriale%2C_urbanistica%2C_paesaggistica_e_ambientale
+      label: Pianificazione territoriale, urbanistica, paesaggistica e ambientale
+    - id: Architettura_del_Paesaggio
+      label: Architettura del Paesaggio
+    - id: Formazione
+      label: Formazione
+    - id: Anastilosi_virtuale_in_ambito_archeologico
+      label: Anastilosi virtuale in ambito archeologico
+    - id: Fotografie_e_rappresentazioni_artistiche
+      label: Fotografie e rappresentazioni artistiche
+    - id: Competenze
+      label: Competenze
+    - id: Progettazione_e_gestione_di_sistemi_turistici
+      label: Progettazione e gestione di sistemi turistici
+    - id: Storytelling
+      label: Storytelling
+    - id: Metolodogia_informatica_per_le_discipline_umanistiche
+      label: Metolodogia informatica per le discipline umanistiche
+    - id: Geografia
+      label: Geografia
+    - id: Scavi_archeologici_e_ricostruzioni_virtuali
+      label: Scavi archeologici e ricostruzioni virtuali
+    - id: Modellazione_3d
+      label: Modellazione 3d
+    - id: Cartografia_storica_e_HGIS
+      label: Cartografia storica e HGIS
+    - id: Archeologia
+      label: Archeologia
+
+- id: tipologie
+  label: Tipologie
+  allLabel: tutte
+  options:
+    - id: Esercitazioni
+      label: Esercitazioni
+    - id: risultati_economico-finanziari
+      label: risultati economico-finanziari
+    - id: modelli_formativi
+      label: modelli formativi
+    - id: SHAPE_File
+      label: SHAPE File
+    - id: Articolo
+      label: Articolo
+    - id: Grafici
+      label: Grafici
+    - id: governance
+      label: governance
+    - id: Scheda_informativa
+      label: Scheda informativa
+    - id: mappatura_modelli_gestione
+      label: mappatura modelli gestione
+    - id: App
+      label: App
+    - id: Infographic
+      label: Infographic
+    - id: Cartografia_storica
+      label: Cartografia storica
+    - id: Video
+      label: Video
+    - id: Piani_strategici
+      label: Piani strategici
+    - id: Immagini
+      label: Immagini
+    - id: Visori
+      label: Visori
+    - id: Modelli
+      label: Modelli
+    - id: Scenari
+      label: Scenari
+    - id: News_%2FEventi
+      label: News /Eventi
+    - id: Ricostruzioni_3d_di_ambienti_virtuali
+      label: Ricostruzioni 3d di ambienti virtuali
+    - id: Metadati
+      label: Metadati
+    - id: Cartografia_e_mappe_tematiche
+      label: Cartografia e mappe tematiche
+    - id: Fonti
+      label: Fonti
+    - id: mappatura_ex_ante_e_ex_post
+      label: mappatura ex ante e ex post
+    - id: Blogs
+      label: Blogs
+    - id: quadri_programmatici
+      label: quadri programmatici

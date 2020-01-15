@@ -1,0 +1,19 @@
+<div id="facetedSearch">
+  <div class="row">
+    {% for facet in site.data.facets %}
+      <div class="col"
+        <fieldset class="form-group">
+          <legend>{{ facet.label }}<a href="#">({{ facet.allLabel }})</a></legend>
+          {% for option in facet.options %}
+            <div class="form-check">
+              <input id="form-check-input-scienzeFisiche" class="form-check-input" type="checkbox" name="{{ facet.id }}" value="{{ option.id }}" id="input-{{ facet.id }}-{{ option.id }}">
+              <label class="form-check-label" for="input-{{ facet.id }}-{{ option.id }}">
+                {{ option.label }}
+              </label>
+            </div>
+          {% endfor %}
+        </fieldset>
+      </div>
+    {% endfor %}
+  </div>
+</div>
