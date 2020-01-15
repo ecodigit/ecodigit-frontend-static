@@ -1,0 +1,36 @@
+<div id="facetedSearch">
+  <div class="row">
+    {% for facet in include.facets %}
+    {% assign facetFilter = include.filters[facet.id] %}
+      <div class="col"
+        <fieldset class="form-group">
+          <legend>{{ facet.label }}
+            {% if facetFilter.size == 0 %}
+              <b>({{ facet.allLabel }})</b>
+            {% else %}
+              <a href="#">({{ facet.allLabel }})</a>
+            {% endif %}
+          </legend>
+          {% for option in facet.options %}
+            <div class="row">
+              <div class="col">
+            <!-- <div class="form-check"> -->
+              <!-- <input class="form-check-input" type="checkbox" name="{{ facet.id }}" value="{{ option.id }}" id="input-{{ facet.id }}-{{ option.id }}">
+              <label class="form-check-label" for="input-{{ facet.id }}-{{ option.id }}"> -->
+                {% if facetFilter contains option.id %}
+                  <b>{{ option.label }} ({{ option.count }})</b>
+                {% elsif facetFilter.size == 0 %}
+                  <a href="#"><b>{{ option.label }} ({{ option.count }})</b></a>
+                {% else %}
+                  <a href="#">{{ option.label }} ({{ option.count }})</a>
+                {% endif %}
+              <!-- </label>
+            </div> -->
+              </div>
+            </div>
+          {% endfor %}
+        </fieldset>
+      </div>
+    {% endfor %}
+  </div>
+</div>

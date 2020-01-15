@@ -1,0 +1,89 @@
+searchString: Manziana
+activeFilters:
+  areeDisc:
+    - Ingegneria_civile_e_Architettura
+  discipline: []
+  settori:
+    - ARCHITETTURA_DEL_PAESAGGIO
+facets:
+  - id: areeDisc
+    label: Aree Disciplinari
+    allLabel: tutte
+    options:
+      - id: Ingegneria_civile_e_Architettura
+        label: Ingegneria civile e Architettura
+        count: 4
+      - id: Scienze_storiche%2C_filosofiche%2C_pedagogiche_e_psicologiche
+        label: Scienze storiche, filosofiche, pedagogiche e psicologiche
+        count: 3
+  - id: discipline
+    label: Discipline
+    allLabel: tutte
+    options:
+      - id: COMPOSIZIONE_ARCHITETTONICA_E_URBANA
+        label: COMPOSIZIONE ARCHITETTONICA E URBANA
+        count: 2
+      - id: STORIA_MEDIEVALE
+        label: STORIA MEDIEVALE
+        count: 1
+      - id: STORIA_CONTEMPORANEA
+        label: STORIA CONTEMPORANEA
+        count: 1
+      - id: TOPOGRAFIA_E_CARTOGRAFIA
+        label: TOPOGRAFIA E CARTOGRAFIA
+        count: 2
+      - id: STORIA_MODERNA
+        label: STORIA MODERNA
+        count: 1
+  - id: settori
+    label: Settori Affini
+    allLabel: tutti
+    options:
+      - id: STORIA_MODERNA%2FCONTEMPORANEA
+        label: STORIA MODERNA/CONTEMPORANEA
+        count: 2
+      - id: ARCHITETTURA_DEL_PAESAGGIO
+        label: ARCHITETTURA DEL PAESAGGIO
+        count: 2
+      - id: STORIA_MEDIEVALE%2FCONTEMPORANEA
+        label: STORIA MEDIEVALE/CONTEMPORANEA
+        count: 1
+      - id: STORIA_MEDIEVALE%2FMODERNA
+        label: STORIA MEDIEVALE/MODERNA
+        count: 1
+      - id: ARCHITETTURA_DEGLI_INTERNI_E_ALLESTIMENTO
+        label: ARCHITETTURA DEGLI INTERNI E ALLESTIMENTO
+        count: 1
+results:
+  - id: prodotti
+    label: Prodotti
+    items:
+      - id: 1
+        label: La storia di Manziana
+      - id: 2
+        label: Le cento storie di Manziana
+      - id: 3
+        label: La chiesa di Sant'Antonio a Manziana
+      - id: 4
+        label: Via Roma a Manziana nel 1898
+      - id: 5
+        label: La mappa delle buche di Manziana
+      - id: 6
+        label: La fontana della pace a Manziana
+      - id: 7
+        label: Paperino a Manziana
+  - id: progetti
+    label: Progetti
+    items:
+      - id: 1
+        label: Manziana progetto fontane
+  - id: persone
+    label: Persone
+    items:
+      - id: 1
+        label: Matteo Flavio Mancini
+  - id: organizzazioni
+    label: Organizzazioni
+    items:
+      - id: 1
+        label: Dipartimento Architettura RM3

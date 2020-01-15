@@ -1,0 +1,61 @@
+---
+---
+{% assign results = site.data.example-results %}
+<!doctype html>
+<html lang="en">
+  <head>
+    {% include header.html %}
+    <title>'{{ results.searchString }}' search results</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="p-3">
+          <form>
+            <div class="form-group">
+              <!-- <label for="textSearch">Free text search</label> -->
+              <div class="input-group">
+
+                <input
+                    type="text" class="form-control" id="textSearch"
+                    aria-describedby="button-search" value="{{results.searchString}}">
+                <div class="input-group-append">
+                  <button type="submit" class="btn btn-primary" type="button" id="button-search">search</button>
+                </div>
+              </div>
+              <!-- <button type="submit" class="btn btn-primary">Search</button> -->
+            </div>
+            <div id="advancedSearch">
+              {% include result-facets.html facets=results.facets filters=results.activeFilters %}
+            </div>
+          </form>
+        </div>
+      <!-- </div> -->
+        </div>
+      </div>
+      <div class="row" style="border-top: 1px solid rgba(0,0,0,.1);">
+        <div class="col">
+          {% for group in results.results %}
+          <div>
+            <legend>{{group.label}}</legend>
+            <ul>
+              {% for item in group.items %}
+              <li>
+                <a href="">{{item.label}}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="col">
+          mappa...
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+</html>
