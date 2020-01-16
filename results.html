@@ -37,16 +37,28 @@
       <div class="row" style="border-top: 1px solid rgba(0,0,0,.1);">
         <div class="col">
           {% for group in results.results %}
-          <div>
-            <legend>{{group.label}}</legend>
-            <ul>
+          <!-- <div class="row">
+            <div class="col"> -->
+          <div class="card mt-3 mb-3">
+            <div class="card-header" style="padding: .5rem 1rem;">
+              {{group.label}}
+            </div>
+            <div class="card-body" style="padding: .5rem 1rem;">
+          <!-- <div> -->
+            <!-- <h6 class="card-title">{{group.label}}</h6> -->
+            <!-- <ul class="list-unstyled" style="margin-bottom: 0;"> -->
+            <ul class="list-unstyled">
               {% for item in group.items %}
               <li>
                 <a href="">{{item.label}}</a>
               </li>
               {% endfor %}
             </ul>
+          <!-- </div> -->
+            </div>
           </div>
+        <!-- </div>
+          </div> -->
           {% endfor %}
         </div>
         <div class="col">
