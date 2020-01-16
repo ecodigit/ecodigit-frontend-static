@@ -27,7 +27,7 @@
               <!-- <button type="submit" class="btn btn-primary">Search</button> -->
             </div>
             <div id="advancedSearch">
-              {% include result-facets.html facets=results.facets filters=results.activeFilters %}
+              {% include result-facets.html facets=results.facets filters=results.activeFilters resultCount=results.resultCount %}
             </div>
           </form>
         </div>

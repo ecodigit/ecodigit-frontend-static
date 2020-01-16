@@ -54,9 +54,11 @@ facets:
       - id: ARCHITETTURA_DEGLI_INTERNI_E_ALLESTIMENTO
         label: ARCHITETTURA DEGLI INTERNI E ALLESTIMENTO
         count: 1
+resultCount: 10
 results:
   - id: prodotti
     label: Prodotti
+    resultCount: 7
     items:
       - id: 1
         label: La storia di Manziana
@@ -74,16 +76,19 @@ results:
         label: Paperino a Manziana
   - id: progetti
     label: Progetti
+    resultCount: 1
     items:
       - id: 1
         label: Manziana progetto fontane
   - id: persone
     label: Persone
+    resultCount: 1
     items:
       - id: 1
         label: Matteo Flavio Mancini
   - id: organizzazioni
     label: Organizzazioni
+    resultCount: 1
     items:
       - id: 1
         label: Dipartimento Architettura RM3
